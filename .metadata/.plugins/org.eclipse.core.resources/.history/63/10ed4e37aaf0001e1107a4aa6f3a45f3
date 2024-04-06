@@ -1,0 +1,11 @@
+package review;
+
+public class Main {
+	public static void main(String[] args) {
+		//userVO 객체 생성
+		//필드는 private 이지만 생성자를 통해 값을 초기화할 수 있으므로 세터를 사용하지 않는다 
+		UserVO user1 = new UserVO("abc1", "1234", "홍길동", 20);
+		
+		
+	}
+}

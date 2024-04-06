@@ -1,0 +1,15 @@
+package threadTest;
+
+public class ThreadTest2 {
+	public static void main(String[] args) {
+		
+		MyThread2 mt1 = new MyThread2();
+		MyThread2 mt2 = new MyThread2();
+		
+		Thread t1 = new Thread(mt1, "A");
+		Thread t2 = new Thread(mt2, "B");
+		
+		t1.start();
+		t2.start();
+	}
+}

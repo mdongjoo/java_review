@@ -1,0 +1,12 @@
+package fileTest;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+
+public class FIleTest4 {
+	public static void main(String[] args) {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(new File("test3.txt")));
+		bw.write("테스트 중입니다");
+	}
+}

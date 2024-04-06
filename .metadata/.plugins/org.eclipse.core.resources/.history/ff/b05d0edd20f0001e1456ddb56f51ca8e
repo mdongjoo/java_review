@@ -1,0 +1,14 @@
+package user;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[] args) {
+		ArrayList<UserVO> list = new ArrayList<>();
+		UserVO user = new UserVO("mdongjoo", "ehdwn", "동주", 20);
+		System.out.println(user);
+		
+		UserService us = new UserService(user);
+		
+	}
+}

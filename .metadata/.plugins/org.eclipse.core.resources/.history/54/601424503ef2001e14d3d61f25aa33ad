@@ -1,0 +1,18 @@
+package day19;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Main {
+   public static void main(String[] args) {
+      ArrayList<String> al1 = new ArrayList<>();
+      List<ArrayList> al2 = new ArrayList<>();
+//      List<Integer, String> al3 = new ArrayList<Integer, String>();
+      List<HashMap> al3 = new ArrayList<>();
+      System.out.println(al1);
+      System.out.println(al2);
+      System.out.println(al3);
+      
+   }
+}

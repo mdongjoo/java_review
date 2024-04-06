@@ -1,0 +1,8 @@
+package threadTest;
+
+public class ThreadName {
+	public static void main(String[] args) {
+		Thread mainTh = Thread.currentThread();
+		System.out.println(mainTh.getName());
+	}
+}

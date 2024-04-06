@@ -1,0 +1,22 @@
+package list;
+
+import java.util.ArrayList;
+
+public class ArrayListTest2 {
+	public static void main(String[] args) {
+		ArrayList<Integer> list = new ArrayList<>();
+		
+		//추가
+		list.add(10);
+		list.add(30);
+		list.add(50);
+		list.add(70);
+		list.add(90);
+		System.out.println(list);
+		
+		//값 가져오기 : index 번호로 특정 값 가져오기 
+		list.get(1);
+		
+		
+	}
+}

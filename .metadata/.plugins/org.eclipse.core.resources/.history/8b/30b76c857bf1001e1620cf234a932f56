@@ -1,0 +1,34 @@
+package fileTest;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileTask {
+	public static void main(String[] args) {
+		//현재 경로에 animal.txt 파일을 생성한다 
+		//파일 내용은 사슴, 고라니, 너구리, 토끼 네가지 동물을 작성한다
+		//각 동물은 줄바꿈후 다음 도ㅇ물을 넣도록 한다
+		//* 배열 이용할 것 , 반복문 사용할 것 
+		
+		//문자열을 한번에 넣고 싶으니 버퍼를 이용한다
+		try {
+			BufferedWriter bw = new BufferedWriter(new FileWriter(new File("animal.txt")));
+			bw.write("사슴");
+			bw.newLine();
+			bw.write("고라니");
+			bw.newLine();
+			bw.write("너구리");
+			bw.newLine();
+			bw.write("토끼");
+			System.out.println("animal.txt 파일이 생성되었습니다.");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//콘솔창 출력 결과
+		//
+	
+	}
+}

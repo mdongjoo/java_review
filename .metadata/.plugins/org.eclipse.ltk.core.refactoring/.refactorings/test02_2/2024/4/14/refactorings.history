@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ex02.Mian&apos; to &apos;Main&apos;&#x0D;&#x0A;- Original project: &apos;test02_2&apos;&#x0D;&#x0A;- Original element: &apos;ex02.Mian&apos;&#x0D;&#x0A;- Renamed element: &apos;ex02.Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mian&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ex02{Mian.java[Mian" matchStrategy="1" name="Main" qualified="false" references="true" similarDeclarations="false" stamp="1711946884442" textual="false" version="1.0"/>
+</session>

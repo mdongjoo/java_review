@@ -1,0 +1,21 @@
+package fileTest;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FileTest2 {
+	public static void main(String[] args) {
+		
+		//workspace 폴더에 test18.txt 파일을 생성하고 
+		//abc 라는 문자를 넣기 
+		File file = new File("C:\web_1300_mdj\workspace\test19.txt");
+		try {
+			file.createNewFile();
+			System.out.println("파일이 생성되었습니다. ");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

@@ -1,0 +1,24 @@
+package fileTest;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileTask2 {
+	public static void main(String[] args) {
+		String[] animals = {"독수리", "참새" ,"닭","비둘기"};
+		
+		try {
+			BufferedWriter bw = new BufferedWriter(new FileWriter("animals.txt"));
+			
+			for(String data : animals) {
+				bw.write(data);
+				bw.newLine();
+			}
+			bw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

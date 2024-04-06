@@ -1,0 +1,17 @@
+package employee;
+
+public class Employee {
+//Value는 이름, 나이, 부서로 설정
+	//필드 
+	String name; 	//이름 
+	int age;		//나이 
+	String part; 	//부서 
+	//생성자 
+	public Employee(String name, int age, String part) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.part = part;
+	}
+	
+}

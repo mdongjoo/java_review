@@ -1,0 +1,19 @@
+package set;
+
+import java.util.HashSet;
+
+public class StudentHashTask {
+	public static void main(String[] args) {
+		//hashSet 객체 생성
+		HashSet<Student> set = new HashSet<>();
+		
+		//Student 객체 생성 
+		Student st1 = new Student(1, "문동주");
+		boolean isTrue = st1.equals(new Student(1,"홍길동"));
+		System.out.println(isTrue); //기존 출력 false , equals 오버라이딩 이후 number로 비교 
+		//equals 메소드 테스트
+		
+		
+		
+	}
+}

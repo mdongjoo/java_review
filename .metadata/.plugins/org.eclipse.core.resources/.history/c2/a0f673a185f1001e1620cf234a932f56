@@ -1,0 +1,13 @@
+package threadTest;
+
+public class MyThread extends Thread{
+	//필드
+	String str;
+	//생성자
+	public MyThread(String str) {
+		super();
+		this.str = str;
+	}
+	
+	
+}
