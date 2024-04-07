@@ -42,12 +42,7 @@ public class Main {
 				break;
 			case 2 : 
 				System.out.println("삭제할 게시물의 번호를 입력하세요");
-				try {
-					board.deletePost(scan.nextInt());
-				} catch (IllegalArgumentException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				board.deletePost(scan.nextInt());
 				break;
 			case 3 : 
 				board.getAllposts();

@@ -27,15 +27,13 @@ public class Board {//게시판 클래스
 		return true;
 	}
 	//deletePost() 매개변수 id 와 일치하는  게시물 클래스를 삭제하고 삭제가 잘 되었는지 boolean 으로 확인 
-	//    해당 ID가 게시판에 없을 경우 IllegalArgumentException을 던진다
-	boolean deletePost(int id) throws IllegalArgumentException { 
+	boolean deletePost(int id) {
 		for(Post lists : list) {
 			if(lists.getId() == id) {
 				this.list.remove(id-1);
 				System.out.println("해당 게시물을 삭제했습니다.");
 				return true;
 			}
-			
 		}
 		return false;
 	}
