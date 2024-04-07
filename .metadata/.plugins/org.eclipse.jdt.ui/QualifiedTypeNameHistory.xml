@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="innerTest.AClass.StaticInner"/>
     <fullyQualifiedTypeName name="anonymousTest.InterA"/>
     <fullyQualifiedTypeName name="toy.Company"/>
     <fullyQualifiedTypeName name="lamdaTest.FunctionalInter"/>
@@ -12,7 +11,6 @@
     <fullyQualifiedTypeName name="lambdaTask.MultipleInter"/>
     <fullyQualifiedTypeName name="exceptionTest.ExceptionTest02"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="throwTest.MyException"/>
     <fullyQualifiedTypeName name="exceptionTask.Account"/>
     <fullyQualifiedTypeName name="exceptionTask.MyException"/>
@@ -29,10 +27,8 @@
     <fullyQualifiedTypeName name="task05.Student"/>
     <fullyQualifiedTypeName name="ex01.School"/>
     <fullyQualifiedTypeName name="ex01.Student"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="ex02.MyException"/>
     <fullyQualifiedTypeName name="list.ArrayListTest"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="list.MyClass"/>
     <fullyQualifiedTypeName name="list.ArrayListTest2"/>
     <fullyQualifiedTypeName name="user.UserService"/>
@@ -42,7 +38,6 @@
     <fullyQualifiedTypeName name="set.HashSetTest2"/>
     <fullyQualifiedTypeName name="set.StudentHashTask"/>
     <fullyQualifiedTypeName name="set.Student"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="employee.Employee"/>
     <fullyQualifiedTypeName name="final1.Post"/>
+    <fullyQualifiedTypeName name="final1.Board"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

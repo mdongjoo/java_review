@@ -1,6 +1,7 @@
 package final1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Board {//게시판 클래스 
 //  Board 클래스
@@ -15,6 +16,7 @@ public class Board {//게시판 클래스
 	ArrayList<Post> list = new ArrayList<>();
 	int idCnt =0 ; //id 값을 정해줄 변수 
 	
+	
 	//메소드 
 	//addPost() 매개변수 제목 내용 String 매개변수 2개 받고 추가 boolean 으로 확인
 	//게시물 작성은 list 필드에 post 클래스를 저장 
@@ -24,17 +26,34 @@ public class Board {//게시판 클래스
 		System.out.println("게시물이 작성되었습니다.");
 		return true;
 	}
-	//deletePost() 매개변수 id 와 게시물 클래스를 매개변수로 받는다 삭제가 잘 되었는지 boolean 으로 확인 
-	boolean deletePost(int id, Post post) {
-		
-		
-		return true;
+	//deletePost() 매개변수 id 와 일치하는  게시물 클래스를 삭제하고 삭제가 잘 되었는지 boolean 으로 확인 
+	boolean deletePost(int id) {
+		for(Post lists : list) {
+			if(lists.getId() == id) {
+				this.list.remove(id-1);
+				System.out.println("해당 게시물을 삭제했습니다.");
+				return true;
+			}
+		}
+		return false;
 	}
 	//getAllPosts() 모든 게시물을 리스트로 반환 리턴값은 Post 클래스를 담은 ArrayList 형태로 
 	//매개변수는 없다 
-//	ArrayList<Post> getAllposts(){
-		
-		
-		//return 
+	ArrayList<Post> getAllposts(){
+		ArrayList<Post> lists = list;
+		if(lists.isEmpty()) {
+			System.out.println("리스트가 비어있습니다.");
+			return lists;
+		}
+		Iterator<Post> iterator = lists.iterator();
+		System.out.println("---------------모든 게시물 리스트-----------------");
+		for(Post posts : lists) {
+		if(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+		}
+		System.out.println("---------------------------------------------");
+		return lists;
 	}
-//}
+
+}

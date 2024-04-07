@@ -14,7 +14,7 @@ public class Post { //게시물 클래스
 	//생성자 
 	public Post(int id, String title, String content) {
 		super();
-		this.id = 0; //id는 0으로 초기화 
+		this.id = id; //id는 0으로 초기화 
 		this.title = title;
 		this.content = content;
 	}
@@ -36,6 +36,12 @@ public class Post { //게시물 클래스
 	}
 	public void setContent(String content) {
 		this.content = content;
+	}
+	//toString 오버라이딩
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "id : "+this.id + " title : "+this.title +" content : "+this.content ;
 	}
 	
 }
