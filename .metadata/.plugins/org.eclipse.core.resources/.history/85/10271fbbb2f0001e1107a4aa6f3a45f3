@@ -1,7 +1,0 @@
-package set;
-
-public class StudentHashTask {
-	public static void main(String[] args) {
-		
-	}
-}

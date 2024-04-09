@@ -1,9 +1,0 @@
-package review;
-
-public class Main {
-	public static void main(String[] args) {
-		//userVO객체 생성
-		UserVO user1 = new UserVO("abc1", "1234", "홍길동", 20);
-		
-	}
-}

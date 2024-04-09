@@ -1,8 +1,0 @@
-package user;
-
-public class Main {
-	public static void main(String[] args) {
-		UserVO user = new UserVO("mdongjoo", "ehdwn", "동주", 20);
-		System.out.println(user);
-	}
-}
